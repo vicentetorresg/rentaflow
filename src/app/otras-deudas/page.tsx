@@ -6,10 +6,10 @@ import { Plus } from 'lucide-react';
 
 export default function OtrasDeudasPage() {
   const deudas = [
-    { id: 1, property: 'Santa Clara 360, Depto. 104', concept: 'Reparacion bano', amount: 85000, tenant: 'Valentina Restrepo', status: 'Pendiente', date: '15/06/2026' },
-    { id: 2, property: 'Av Los Libertadores 6170, Depto. 3604', concept: 'Pintura departamento', amount: 120000, tenant: 'Javiera Rodriguez', status: 'Pagado', date: '10/06/2026' },
-    { id: 3, property: 'Av Los Libertadores 6170, Depto. 2501', concept: 'Cambio cerradura', amount: 45000, tenant: 'Claudia Carolina Blanco', status: 'Pendiente', date: '20/06/2026' },
-    { id: 4, property: 'Camino Vecinal 1636, Depto. 238', concept: 'Gastos comunes extra', amount: 32000, tenant: 'Jose Luis Quintero', status: 'Pagado', date: '01/06/2026' },
+    { id: 1, property: 'Av. Mirador del Valle 820, Depto. 301', concept: 'Reparacion bano', amount: 85000, tenant: 'Camila Soto', status: 'Pendiente', date: '15/06/2026' },
+    { id: 2, property: 'Calle Los Aromos 1450, Depto. 802', concept: 'Pintura departamento', amount: 120000, tenant: 'Antonia Vargas', status: 'Pagado', date: '10/06/2026' },
+    { id: 3, property: 'Calle Los Aromos 1450, Depto. 2201', concept: 'Cambio cerradura', amount: 45000, tenant: 'Isabel Paredes', status: 'Pendiente', date: '20/06/2026' },
+    { id: 4, property: 'Av. Central Norte 2780, Depto. 410', concept: 'Gastos comunes extra', amount: 32000, tenant: 'Carolina Mendez', status: 'Pagado', date: '01/06/2026' },
   ];
 
   return (
